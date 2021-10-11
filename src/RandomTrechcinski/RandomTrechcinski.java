@@ -5,7 +5,7 @@ public class RandomTrechcinski {
     public static void main(String[] args) {
 
         Random random = new Random();
-        int losowaLiczbaTrechcinski = random.nextInt(101); //0-100
+        int losowaLiczbaTrechcinski = random.nextInt(100)+1; //1-100
         System.out.println("Wylosowałeś liczbę: "+losowaLiczbaTrechcinski);
 
         if (losowaLiczbaTrechcinski%2 == 0)
